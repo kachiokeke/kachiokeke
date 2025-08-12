@@ -322,6 +322,10 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+	.posts article header{
+		    min-height: 6rem;
+	}
+
 /* Row */
 
 	.row {
