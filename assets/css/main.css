@@ -326,6 +326,10 @@ input, select, textarea {
 		    min-height: 6rem;
 	}
 
+	.posts div.wrapper {
+		display: flex;
+	}
+
 /* Row */
 
 	.row {
