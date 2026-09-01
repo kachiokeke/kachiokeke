@@ -322,12 +322,43 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
-	.posts article header{
-		    min-height: 6rem;
+	.posts .project-actions {
+		display: flex;
 	}
 
-	.posts div.wrapper {
-		display: flex;
+	.posts .project-actions > .actions {
+		margin-bottom: 0;
+	}
+
+	.posts .image.fit img {
+		object-fit: contain;
+	}
+
+	@media screen and (min-width: 737px) {
+
+		#main > .posts > article {
+			display: flex;
+			flex-direction: column;
+		}
+
+			#main > .posts > article > header {
+				min-height: 11rem;
+				flex-shrink: 0;
+			}
+
+			#main > .posts > article > .image.fit {
+				flex-shrink: 0;
+				margin: 1rem 0 2.5rem 0;
+			}
+
+			#main > .posts > article > p {
+				flex-grow: 1;
+			}
+
+			#main > .posts > article > .project-actions {
+				margin-top: auto;
+			}
+
 	}
 
 /* Row */
